@@ -15,7 +15,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install numpy pandas scikit-learn opencv-python jupyter nbconvert
+        run: pip install numpy pandas scikit-learn opencv-python jupyter nbconvert matplotlib
 
       - name: Run test script
         run: python test_script.py
