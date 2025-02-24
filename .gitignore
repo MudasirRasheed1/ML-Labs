@@ -1,12 +1,1 @@
 # Ignore virtual environment
-venv/
-
-# Ignore dataset files
-*.csv
-*.json
-*.xlsx
-data/
-
-# Ignore log files
-logs/
-*.log
