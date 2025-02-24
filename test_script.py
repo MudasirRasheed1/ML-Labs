@@ -5,7 +5,7 @@ import cv2
 IMAGE_FOLDER = "data/"
 
 # Image filenames
-IMAGE_FILES = ["data/Plaksha_Faculty.jpg", "data/Dr_Shashi_Tharoor.jpg"]
+IMAGE_FILES = ["Plaksha_Faculty.jpg", "Dr_Shashi_Tharoor.jpg"]
 
 # Dictionary to store loaded images
 dataset = {}

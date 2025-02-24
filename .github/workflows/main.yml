@@ -1,15 +1,31 @@
 name: Run Tests
+
 on: [push]
+
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+
       - name: Install dependencies
-        run: pip install numpy pandas scikit-learn opencv-python
+        run: pip install numpy pandas scikit-learn opencv-python jupyter nbconvert
+
       - name: Run test script
         run: python test_script.py
+
+      - name: Execute Jupyter Notebook
+        run: |
+          jupyter nbconvert --to notebook --execute "Lab 5-Spring 2025.ipynb" --output "Lab 5-Spring 2025-output.ipynb"
+
+      - name: Upload Executed Notebook
+        uses: actions/upload-artifact@v3
+        with:
+          name: executed-notebook
+          path: "Lab 5-Spring 2025-output.ipynb"
