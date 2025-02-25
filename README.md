@@ -18,7 +18,7 @@ This project applies distance-based classification using various distance metric
 ## Setup Instructions
 ### 1. Clone the Repository
 ```sh
-git clone <your-repo-url>
+git clone git@github.com:MudasirRasheed1/ML-Labs.git
 cd ML-Labs
 ```
 
