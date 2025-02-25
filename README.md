@@ -10,7 +10,7 @@ This project applies distance-based classification using various distance metric
 ├── Dockerfile
 ├── requirements.txt
 ├── .github/workflows/main.yml
-├── distance_classification.ipynb  
+├── Lab-5-5pring-2025.ipynb  
 ├── data/
 ├── README.md
 ```
