@@ -10,9 +10,8 @@ This project applies distance-based classification using various distance metric
 ├── Dockerfile
 ├── requirements.txt
 ├── .github/workflows/main.yml
-├── notebooks/
-│   ├── distance_classification.ipynb
-├── dataset/
+├── distance_classification.ipynb  
+├── data/
 ├── README.md
 ```
 
@@ -20,7 +19,7 @@ This project applies distance-based classification using various distance metric
 ### 1. Clone the Repository
 ```sh
 git clone <your-repo-url>
-cd distance_classification
+cd ML-Labs
 ```
 
 ### 2. Create a Virtual Environment
@@ -80,14 +79,6 @@ CMD ["python", "distance_classification.py"]
 
 ---
 
-## Experimentation with Kaggle
-- Upload the provided Jupyter Notebook to Kaggle.
-- Install required dependencies:
-  ```sh
-  !pip install numpy pandas scikit-learn wandb
-  ```
-- Use Weights & Biases for experiment tracking.
-
 ---
 
 ## Tracking Results with Weights & Biases (WandB)
@@ -105,7 +96,13 @@ CMD ["python", "distance_classification.py"]
 ---
 
 ### Sample WandB Screenshot:
-![WandB Dashboard](wandb_dashboard.png)
+![Screenshot 2025-02-25 214714](https://github.com/user-attachments/assets/6bc4d0d4-a1d1-402a-bbc3-7be9183e069a)
+![Screenshot 2025-02-25 214639](https://github.com/user-attachments/assets/787742b9-9729-459f-b270-5b2c7c3ed200)
+![Screenshot 2025-02-25 214609](https://github.com/user-attachments/assets/f078d568-dc64-4d58-bd7e-9eb63890660f)
+![Screenshot 2025-02-25 214537](https://github.com/user-attachments/assets/1667608e-5539-441f-8a8b-12986e0805ca)
+
+
+
 
 ---
 
