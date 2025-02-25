@@ -104,15 +104,6 @@ CMD ["python", "distance_classification.py"]
 
 ---
 
-## Final Submission
-### Ensure your repository contains:
-✅ Completed Jupyter Notebook
-✅ Dockerfile
-✅ GitHub Actions workflow
-✅ Experiment logs on WandB
-✅ Report summarizing findings in `README.md`
-✅ Screenshots of WandB dashboard in `README.md`
-
 ### Sample WandB Screenshot:
 ![WandB Dashboard](wandb_dashboard.png)
 
